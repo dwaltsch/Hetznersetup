@@ -15,6 +15,8 @@ sudo add-apt-repository -y 'deb [arch=amd64] https://repo.mongodb.org/apt/ubuntu
 sudo apt install -y mongodb-org
 #Config
 update-locale LANG=de_DE.UTF-8
+sudo systemctl start mongod
+sudo systemctl enable mongod
 #Security
 #Test
 speedtest
