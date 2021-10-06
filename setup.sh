@@ -10,6 +10,9 @@ sudo apt install -y docker
 sudo apt install -y nginx
 sudo apt install -y gcc
 sudo apt install -y language-pack-ru
+sudo apt-key adv -y --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+sudo add-apt-repository -y 'deb [arch=amd64] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse'
+sudo apt install -y mongodb-org
 #Config
 update-locale LANG=de_DE.UTF-8
 #Security
